@@ -13,13 +13,20 @@ main {
     text-align: justify;
 }
 
-main article h1 {
-    font-size: 1.5em;
-    text-align: center;
+main article img,
+main article video,
+main article svg,
+main article canvas {
+    display: block;
+    margin: 0.5em auto;
+    max-width: 100%;
 }
 
-main article h2 {
-    font-size: 1.3em;
+main article h1, 
+main article h2, 
+main article h3 {
+    font-size: 1.5em;
+    text-align: center;
 }
 
 main article p {
@@ -33,6 +40,7 @@ main article pre {
     margin: 0 1em 0 1em;
     padding: 10px;
     font-size: 0.9em;
+    line-height: 1.1;
     font-family: monospace;
 }
 
@@ -40,8 +48,8 @@ main article pre {
     background-color: white;
     border-radius: 12px;
     padding: 10px;
-    margin: 2em 0 3em 0;
-    box-shadow: 5px 7px 15px;
+    margin: 2em;
+    box-shadow: 1px 5px 15px;
 }
 
 header #nav {
