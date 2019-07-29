@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    font-size: 18px;
+    background-color: lightgrey;
+}
+
+main {
+    display: block;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+
+main article h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main article h2 {
+    font-size: 1.3em;
+}
+
+main article p {
+    margin-bottom: 0.75em 0;
+}
+
+main article pre {
+    background-color: #fafafa;
+    border: #4d4d4d solid 1px;
+    border-radius: 3px;
+    margin: 0 1em 0 1em;
+    padding: 10px;
+    font-size: 0.9em;
+    font-family: monospace;
+}
+
+.page {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 2em 0 3em 0;
+    box-shadow: 5px 7px 15px;
+}
+
+header #nav {
+    list-style: none;
+    text-align: left;
+}
